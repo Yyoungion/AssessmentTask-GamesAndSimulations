@@ -2,11 +2,6 @@
 
 ## Identifying And Defining
 
-### Brainstorming
-|Game (Type)|P|M|I|
-|--|--|--|--|
-|Open World RPG|User Freedom|Very complicated to create|Quests and adventures|
-|First Person Shooter|immersive and engaging|Motion sickness|A variety of weapons|
 
 ### Identifying a Need
 __Need:__ My game aims to build up curiosity in young children through exploration and interesting questlines such as collecting items and finding characters.\
@@ -35,4 +30,16 @@ __Scalability Requirements:__ The game should be able to scale to include new le
 __Reliability and Availability:__ The system should be available 90% of the time. It does not need to handle network disruptions as it runs offline. In the case of a crash, the game will load back to its latest save, whether made by the user of automatically.
 
 ### Consideration of Social and Ethical Issues
-__What is Equity and Accessibility:__ Equity recognizes that different circumstances require different resources and opportunities to achieve an equal outcome. Accessibility means the quality of being easily reached, entered, or used by people who have a disability
+__What is Equity and Accessibility:__ Equity recognizes that different circumstances require different resources and opportunities to achieve an equal outcome. Accessibility means the quality of being easily reached, entered, or used by people who have a disability.\
+__Accessibility:__ My game will be able to be used by deaf people with the help of ingame subtitles displaying the sounds played. There will also be a different colour set for colourblind people. However, it will now cater for blind or other disabilites such as missing limbs.
+__Privacy and Data Protection:__ My game will not collect personal info and user data.
+__Fairness and Representation:__ My game will avoid any stereotypes and bias. It will not display harmful stereotypes and project a diverse range of characters and scenarios.
+__Mental and Emotional Well-Being:__ My game will not affect users mental health. It will not promote excessive violence and will encourage a positive experience.
+__Cultural Sensitivities:__ There will not be any content offensive the any cultures. It will not display any inappropriate themes and symbols that might be offensive and harmful to cultures of any kind.
+
+## Researching and Planning
+### Exploration of Existing Ideas
+|Game|P|M|I|
+|--|--|--|--|
+|Genshin Impact|Genshin impact allows user freedom. It allows the players to explore and travel the world, choosing their development path their own way.|However, Genshin Impact is a pay to win game, making users have to spend money if they want to progress the game in a timely manner.|I want to impliment its open world factor. I want the user to be able to explore the world their own way.|
+Minecraft|Minecraft is a creative and fun open world game that promotes exploration and allows the user to choose their own path, whether it is to kill the boss or build a house.|Minecraft 
