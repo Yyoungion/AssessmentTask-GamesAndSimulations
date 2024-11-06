@@ -105,9 +105,21 @@ __GameStoryBoard__
 
 __SceneStoryBoard__
 
-\
-\
+_Splashscreen_
+![Alt text](StoryBoard/Splashscreen.png)
 \
 &nbsp;
+
+|Assets|Code|Animations|
+|--|--|--|
+|The assets of the splashscreen will include 2 clouds as well as a tree. There is also text displaying the words 'Skyward Quest'. 3 buttons will also be displayed along with a row of grass tiles. | The button on the very top, when clicked, will bring the user into the game world. Clicking the tutorial button will bring you to a guided playthrough of a section of the game and settings will display your current setting such as keybinds and previous saves.|Everything will be still except for the clouds which will move acorss the screen in a repeating pattern|
+
+\
+&nbsp;
+
+_Quest_
+
+
+
 
 ### Gantt Chart
