@@ -17,7 +17,7 @@ __Storage:__ User progress will be stored and saved locally so the user can safe
 
 ### Functional Requirements
 __User Interaction:__ The user will intereact with the system via mouse movevments, clicking, and keyboard commands. The user will be able to move the character, pick up items, select options as well as interact with NPCs. For example, WASD will move a character around and clicking on a NPC will begin an interaction with it, whether it is displaying a quest or adding to the story.\
-__Core Gameplay or Simulation Mechanics:__ My game will need movement in NSEW directions. This is completed by using the WASD keys. When pressed, the character will move in the direction of the key pressed e.g pressing A will cause the player to move to the left. Combat will be available when encoutering enemies. If a weapon is equipped, clicking will cause a slash, killing the enemy if they are in range. Quests, such as object collection will also be part of the game. Text boxes will show when a user interacts with a NPC, displaying a quest and the option to accept and decline.\
+__Core Gameplay or Simulation Mechanics:__ My game will need movement in NSEW directions. This is completed by using the WASD keys. When pressed, the character will move in the direction of the key pressed e.g pressing A will cause the player to move to the left. Combat will be available when encoutering enemies. If a weapon is equipped, clicking will cause a slash, killing the enemy if they are in range. Quests, such as object collection will also be part of the game. Text boxes will show when a user interacts with a NPC, displaying a quest and the option to accept and decline. Text boxes will also appear as tips at certain points in the game.\
 __Scoring and Feedback:__ If a user tries to enter a restricted area or a area they have not unlocked, warning messages will appear, warning the user to leave the said area.\
 __Level Progression or Simulation Stages:__ New levels will be available to the user when they complete the quest that allows them to access the new area, giving them new items and quests.\
 __Saving and Loading Data:__ User progress will auto save at even intervals. When booting up a game, it will automatically load the latest save. User can also manually save. All saves will be done locally.\
@@ -51,7 +51,6 @@ __Movement__
 
 ![Alt text](Flowchart/MovementFlowchart.png)
 \
-\
 BEGIN Movement\
 &nbsp; &nbsp; &nbsp;INPUT UserInput\
 &nbsp; &nbsp; &nbsp;IF 'A' pressed THEN\
@@ -68,8 +67,9 @@ END Movement\
 \
 \
 __Combat__
+
+
 ![Alt text](Flowchart/CombatFlowchart.png)
-\
 \
 BEGIN Combat\
 &nbsp; &nbsp; &nbsp;INPUT UserInput\
@@ -77,5 +77,37 @@ BEGIN Combat\
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If Weapon equipped THEN\
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If Enemy in range THEN\
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Attack\
-&nbsp; &nbsp; &nbsp;ELSE Do nothing
-END Combat
+&nbsp; &nbsp; &nbsp;ELSE Do nothing\
+END Combat\
+\
+\
+\
+__Text Display__
+
+
+![Alt text](Flowchart/TextDisplay.png)
+\
+Begin TextDisplay\
+&nbsp; &nbsp; &nbsp;IF character in range\
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Display text box\
+&nbsp; &nbsp; &nbsp;ELSE Do nothing\
+END TextDisplay\
+\
+\
+\
+&nbsp;
+
+### StoryBoard
+
+__GameStoryBoard__
+
+![Alt text](StoryBoard/GameStory.png)
+
+__SceneStoryBoard__
+
+\
+\
+\
+&nbsp;
+
+### Gantt Chart
