@@ -112,14 +112,47 @@ _Splashscreen_
 
 |Assets|Code|Animations|
 |--|--|--|
-|The assets of the splashscreen will include 2 clouds as well as a tree. There is also text displaying the words 'Skyward Quest'. 3 buttons will also be displayed along with a row of grass tiles. | The button on the very top, when clicked, will bring the user into the game world. Clicking the tutorial button will bring you to a guided playthrough of a section of the game and settings will display your current setting such as keybinds and previous saves.|Everything will be still except for the clouds which will move acorss the screen in a repeating pattern|
+|The assets of the splashscreen will include 2 clouds as well as a tree. There is also text displaying the words 'Skyward Quest'. 3 buttons will also be displayed along with a row of grass tiles.| The button on the very top, when clicked, will bring the user into the game world. Clicking the tutorial button will bring you to a guided playthrough of a section of the game and settings will display your current setting such as keybinds and previous saves.|Everything will be still except for the clouds which will move acorss the screen in a repeating pattern|
 
 \
 &nbsp;
 
 _Quest_
+![Alt text](StoryBoard/Quest.png)
+\
+&nbsp;
 
+|Assets|Code|Animations|
+|--|--|--|
+|The assets of the NPC interaction will include grass tileblock. There is also a NPC who will display a quest when a player interacts with him. On interaction it will also display Accept and Decline buttons.| The Accept button when interacted with will accept the the quest and display it one the side of the screen while clicking the decline button will result in the NPC displaying another round of dialoge and then the npc will proceed to walk away.|The NPC will have a idle animation while displaying the quest.|
 
+\
+&nbsp;
 
+_Quest display_
+![Alt text](StoryBoard/Questmenu.png)
+\
+&nbsp;
+
+|Assets|Code|Animations|
+|--|--|--|
+|The assets of the this sceen will include the a selection of quests, settings button and a help button. on the side of the screen as a overlay over the main screen.|When clicking on each button(Quest, Settings and Help), it will switch between the different overlays.|There is no animation for the overlay apart from the usual gameplay animations.
+
+\
+&nbsp;
+
+_Tutorial_
+![Alt text](StoryBoard/Tutorial.png)
+\
+&nbsp;
+
+|Assets|Code|Animations|
+|--|--|--|
+|There will be a UI text instructing users on default movement keys. The character is also there and there is also a Apple.|There character is able to move around using WASD. The apple is also set as trigger to bring the user back to the splashscreen when user comes in contact with the apple.|There is no other animations other than the character's idle, and walking animation.
+
+\
+\
+&nbsp;
 
 ### Gantt Chart
+![Alt text](GanttChart.png)
